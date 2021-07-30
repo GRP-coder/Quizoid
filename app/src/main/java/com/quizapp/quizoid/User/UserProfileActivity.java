@@ -88,7 +88,7 @@ public class UserProfileActivity extends AppCompatActivity implements Navigation
         firebaseAuth = FirebaseAuth.getInstance();
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
-        DatabaseReference databaseReference = firebaseDatabase.getReference("The QuizBoxers");
+        DatabaseReference databaseReference = firebaseDatabase.getReference("Quiz Users");
 
         assert user != null;
         Query query = databaseReference.orderByChild("email").equalTo(user.getEmail());
