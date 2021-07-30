@@ -45,7 +45,7 @@
     <string name="twenty_score">20% Score</string>
     <string name="quiz">Quiz</string>
     <string name="box">Quizoid</string>
-    <string name="learn_and_upgrade">Learn and Upgrade</string>
+
     <string name="try_again">Try Again</string>
     <string name="choose_your_preferred_level">Choose your preferred Level</string>
     <string name="forgot_password">Forgot Password?</string>
@@ -58,6 +58,7 @@
     <string name="share_question">Share Question</string>
     <string name="next">Next</string>
     <string name="todo">QuizBox Image</string>
+    <string name="learn_and_upgrade">Learn and Upgrade</string>
 
 
 </resources>
