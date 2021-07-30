@@ -27,8 +27,8 @@
 
         <ImageView
             android:id="@+id/sp_logo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
             android:src="@drawable/abt_img_foreground"
             android:layout_marginTop="20dp"
             android:gravity="center"
@@ -38,8 +38,8 @@
             android:id="@+id/sp_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Welcome to the QuizBox"
-            android:layout_marginTop="170dp"
+            android:text="@string/welcome_to_the_quizoid"
+            android:layout_marginTop="160dp"
             android:textSize="24sp"
             android:textColor="@color/white"
             android:fontFamily="@font/roboto"/>

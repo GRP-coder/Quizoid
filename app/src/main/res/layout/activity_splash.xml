@@ -28,8 +28,8 @@
 
         <ImageView
             android:id="@+id/sp_logo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
             android:layout_marginTop="20dp"
             android:gravity="center"
             android:src="@drawable/sigin_logo_foreground"
@@ -39,9 +39,9 @@
             android:id="@+id/sp_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="170dp"
+            android:layout_marginTop="160dp"
             android:fontFamily="@font/roboto"
-            android:text="@string/welcome_to_the_quizbox"
+            android:text="@string/welcome_to_the_quizoid"
             android:textColor="@color/signin_txt_color"
             android:textSize="24sp" />
 
